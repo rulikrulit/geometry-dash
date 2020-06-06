@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Geometry dash</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body class="game-container">
+	<audio id="music">
+		<source src="sounds/1.mp3" type="audio/mpeg">
+	</audio>
+	<div id="before-game">
+		<button id="start-button" class="start-game-button">
+			<img class="face" src="images/faces/insane.png" />
+			<h1 class="game-title">Speed off</h1>
+		</button>
+		<div class="progress-bar">
+			<div class="progress"></div>
+		</div>
+	</div>
+	<div id="in-game">
+		<div class="in-game-background"></div>
+		<div class="road"></div>
+		<div class="brick-wall"></div>
+		<div class="brick-wall brick-wall--tall"></div>
+		<div class="spike"></div>
+	</div>
+
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
